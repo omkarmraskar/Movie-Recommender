@@ -48,7 +48,7 @@ sorted_similar_movies = sorted(similar_movies,key=lambda x:x[1],reverse=True)
 
 i=0
 for element in sorted_similar_movies:
-		print (get_title_from_index(element[1]))
+		print (get_title_from_index(element[0]))
 		i=i+1
 		if i>10:
 			break
